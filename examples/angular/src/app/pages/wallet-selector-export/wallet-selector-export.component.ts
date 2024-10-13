@@ -1,28 +1,28 @@
 import type { OnInit } from "@angular/core";
-import type { AccountState, WalletSelector } from "@near-wallet-selector/core";
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import type { WalletSelectorModal } from "@near-wallet-selector/account-export";
-import { setupSender } from "@near-wallet-selector/sender";
-import { setupBitgetWallet } from "@near-wallet-selector/bitget-wallet";
-import { setupXDEFI } from "@near-wallet-selector/xdefi";
-import { setupMathWallet } from "@near-wallet-selector/math-wallet";
-import { setupNightly } from "@near-wallet-selector/nightly";
-import { setupMeteorWallet } from "@near-wallet-selector/meteor-wallet";
-import { setupNarwallets } from "@near-wallet-selector/narwallets";
-import { setupWelldoneWallet } from "@near-wallet-selector/welldone-wallet";
-import { setupHereWallet } from "@near-wallet-selector/here-wallet";
-import { setupCoin98Wallet } from "@near-wallet-selector/coin98-wallet";
-import { setupNearFi } from "@near-wallet-selector/nearfi";
-import { setupNeth } from "@near-wallet-selector/neth";
-import { setupWalletConnect } from "@near-wallet-selector/wallet-connect";
+import type { AccountState, WalletSelector } from "@meer-wallet-selector/core";
+import { setupWalletSelector } from "@meer-wallet-selector/core";
+import type { WalletSelectorModal } from "@meer-wallet-selector/account-export";
+import { setupSender } from "@meer-wallet-selector/sender";
+import { setupBitgetWallet } from "@meer-wallet-selector/bitget-wallet";
+import { setupXDEFI } from "@meer-wallet-selector/xdefi";
+import { setupMathWallet } from "@meer-wallet-selector/math-wallet";
+import { setupNightly } from "@meer-wallet-selector/nightly";
+import { setupMeteorWallet } from "@meer-wallet-selector/meteor-wallet";
+import { setupNarwallets } from "@meer-wallet-selector/narwallets";
+import { setupWelldoneWallet } from "@meer-wallet-selector/welldone-wallet";
+import { setupHereWallet } from "@meer-wallet-selector/here-wallet";
+import { setupCoin98Wallet } from "@meer-wallet-selector/coin98-wallet";
+import { setupNearFi } from "@meer-wallet-selector/nearfi";
+import { setupNeth } from "@meer-wallet-selector/neth";
+import { setupWalletConnect } from "@meer-wallet-selector/wallet-connect";
 import { Component } from "@angular/core";
-import { setupExportSelectorModal } from "@near-wallet-selector/account-export";
-import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
-import { setupRamperWallet } from "@near-wallet-selector/ramper-wallet";
-import { setupNearMobileWallet } from "@near-wallet-selector/near-mobile-wallet";
-import { setupLedger } from "@near-wallet-selector/ledger";
-import { setupMintbaseWallet } from "@near-wallet-selector/mintbase-wallet";
-import { setupBitteWallet } from "@near-wallet-selector/bitte-wallet";
+import { setupExportSelectorModal } from "@meer-wallet-selector/account-export";
+import { setupMyNearWallet } from "@meer-wallet-selector/my-near-wallet";
+import { setupRamperWallet } from "@meer-wallet-selector/ramper-wallet";
+import { setupNearMobileWallet } from "@meer-wallet-selector/near-mobile-wallet";
+import { setupLedger } from "@meer-wallet-selector/ledger";
+import { setupMintbaseWallet } from "@meer-wallet-selector/bitte-wallet";
+import { setupBitteWallet } from "@meer-wallet-selector/bitte-wallet";
 import { CONTRACT_ID } from "../../../constants";
 
 declare global {
@@ -76,7 +76,7 @@ export class WalletSelectorExportComponent implements OnInit {
           metadata: {
             name: "NEAR Wallet Selector",
             description: "Example dApp used by NEAR Wallet Selector",
-            url: "https://github.com/near/wallet-selector",
+            url: "https://github.com/mikedotexe/mallet-selector",
             icons: ["https://avatars.githubusercontent.com/u/37784886"],
           },
         }),

@@ -25,8 +25,8 @@ npm install @near-wallet-selector/here-wallet
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupHereWallet } from "@near-wallet-selector/here-wallet";
+import { setupWalletSelector } from "@meer-wallet-selector/core";
+import { setupHereWallet } from "@meer-wallet-selector/here-wallet";
 
 // HERE Wallet for Wallet Selector can be setup without any params or it can take few optional params, see options below.
 const hereWallet = setupHereWallet({
@@ -82,8 +82,8 @@ if (isHereWallet(wallet)) {
 Assets such as icons can be found in the `/assets` directory of the package. Below is an example using Webpack:
 
 ```ts
-import { setupHereWallet } from "@near-wallet-selector/here-wallet";
-import HereWalletIconUrl from "@near-wallet-selector/here-wallet/assets/here-wallet-icon.png";
+import { setupHereWallet } from "@meer-wallet-selector/here-wallet";
+import HereWalletIconUrl from "@meer-wallet-selector/here-wallet/assets/here-wallet-icon.png";
 
 const hereWallet = setupHereWallet({ 
   iconUrl: HereWalletIconUrl 

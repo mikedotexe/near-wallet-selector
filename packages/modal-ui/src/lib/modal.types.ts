@@ -1,4 +1,4 @@
-import type { Subscription } from "@near-wallet-selector/core";
+import type { Subscription } from "@meer-wallet-selector/core";
 
 export type Theme = "dark" | "light" | "auto";
 

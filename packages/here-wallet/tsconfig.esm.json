@@ -7,7 +7,7 @@
     "declarationMap": true,
     "types": ["node", "jest"],
     "paths": {
-      "@near-wallet-selector/*": ["../*/src/index.ts"]
+      "@meer-wallet-selector/*": ["../*/src/index.ts"]
     }
   },
   "include": ["src/**/*"]

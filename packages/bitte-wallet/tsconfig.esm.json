@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "./tsconfig.json",
   "compilerOptions": {
     "module": "ESNext",
     "outDir": "./dist/esm",
@@ -7,7 +7,7 @@
     "declarationMap": true,
     "types": ["node"],
     "paths": {
-      "@near-wallet-selector/*": ["../*"]
+      "@meer-wallet-selector/*": ["../*/src/index.ts"]
     }
   },
   "include": ["src/**/*"]

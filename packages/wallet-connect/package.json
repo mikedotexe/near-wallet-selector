@@ -1,6 +1,6 @@
 {
-  "name": "@near-wallet-selector/wallet-connect",
-  "version": "8.9.13",
+  "name": "@meer-wallet-selector/wallet-connect",
+  "version": "9.9.9",
   "description": "Wallet Connect package for NEAR Wallet Selector.",
   "scripts": {
     "compile:esm": "tsc -p tsconfig.esm.json",
@@ -46,10 +46,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/near/wallet-selector.git"
+    "url": "https://github.com/mikedotexe/mallet-selector.git"
   },
   "bugs": {
-    "url": "https://github.com/near/wallet-selector/issues"
+    "url": "https://github.com/mikedotexe/mallet-selector/issues"
   },
-  "homepage": "https://github.com/near/wallet-selector/tree/main/packages/wallet-connect"
+  "homepage": "https://github.com/mikedotexe/mallet-selector/tree/main/packages/wallet-connect"
 }

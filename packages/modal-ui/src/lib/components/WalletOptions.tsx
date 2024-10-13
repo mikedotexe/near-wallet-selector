@@ -3,7 +3,7 @@ import type {
   WalletSelector,
   ModuleState,
   Wallet,
-} from "@near-wallet-selector/core";
+} from "@meer-wallet-selector/core";
 import { WarningIcon } from "./icons/WarningIcon";
 
 interface WalletOptionsProps {

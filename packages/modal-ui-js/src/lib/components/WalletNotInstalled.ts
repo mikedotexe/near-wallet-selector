@@ -1,6 +1,6 @@
-import type { ModuleState, Wallet } from "@near-wallet-selector/core";
+import type { ModuleState, Wallet } from "@meer-wallet-selector/core";
 import { modalState } from "../modal";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@meer-wallet-selector/core";
 import { renderWhatIsAWallet } from "./WhatIsAWallet";
 import { BackArrowIcon } from "./icons/BackArrowIcon";
 import { CloseIcon } from "./icons/CloseIcon";

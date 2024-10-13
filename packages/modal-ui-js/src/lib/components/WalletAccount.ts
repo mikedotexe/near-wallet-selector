@@ -1,5 +1,5 @@
-import type { ModuleState, Wallet } from "@near-wallet-selector/core";
-import { translate } from "@near-wallet-selector/core";
+import type { ModuleState, Wallet } from "@meer-wallet-selector/core";
+import { translate } from "@meer-wallet-selector/core";
 import { CloseIcon } from "./icons/CloseIcon";
 import { ConnectionSuccessIcon } from "./icons/ConnectionSuccessIcon";
 

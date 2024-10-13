@@ -1,6 +1,6 @@
 {
-  "name": "@near-wallet-selector/modal-ui-js",
-  "version": "8.9.13",
+  "name": "@meer-wallet-selector/modal-ui-js",
+  "version": "9.9.9",
   "description": "Modal UI package for NEAR wallet Selector",
   "scripts": {
     "compile:esm": "tsc -p tsconfig.esm.json",
@@ -43,10 +43,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/near/wallet-selector.git"
+    "url": "https://github.com/mikedotexe/mallet-selector.git"
   },
   "bugs": {
-    "url": "https://github.com/near/wallet-selector/issues"
+    "url": "https://github.com/mikedotexe/mallet-selector/issues"
   },
-  "homepage": "https://github.com/near/wallet-selector/tree/main/packages/modal-ui-js"
+  "homepage": "https://github.com/mikedotexe/mallet-selector/tree/main/packages/modal-ui-js"
 }

@@ -17,9 +17,9 @@ npm install @near-wallet-selector/modal-ui-js
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupModal } from "@near-wallet-selector/modal-ui-js";
-import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
+import { setupWalletSelector } from "@meer-wallet-selector/core";
+import { setupModal } from "@meer-wallet-selector/modal-ui-js";
+import { setupMyNearWallet } from "@meer-wallet-selector/my-near-wallet";
 
 const selector = await setupWalletSelector({
   network: "testnet",

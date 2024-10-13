@@ -11,8 +11,8 @@ import {
   type Account,
   type InjectedWallet,
   type Optional,
-} from "@near-wallet-selector/core";
-import { signTransactions } from "@near-wallet-selector/wallet-utils";
+} from "@meer-wallet-selector/core";
+import { signTransactions } from "@meer-wallet-selector/wallet-utils";
 import {
   type WriteContractParameters,
   type GetAccountReturnType,

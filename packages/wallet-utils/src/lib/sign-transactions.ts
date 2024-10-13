@@ -6,7 +6,7 @@ import {createTransaction, signTransaction} from "@meer-js/transactions";
 import {baseDecode} from "@meer-js/utils";
 // import * as nearAPI from "meer-api-js";
 import {JsonRpcProvider} from "@meer-js/providers";
-import type {Network, Transaction} from "@near-wallet-selector/core/src";
+import type {Network, Transaction} from "@meer-wallet-selector/core/src";
 import type {AccessKeyViewRaw} from "@meer-js/types";
 import {createAction} from "./create-action";
 

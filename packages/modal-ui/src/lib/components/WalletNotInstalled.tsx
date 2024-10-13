@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import type { ModuleState } from "@near-wallet-selector/core";
+import type { ModuleState } from "@meer-wallet-selector/core";
 import { ModalHeader } from "./ModalHeader";
 import { BackArrow } from "./BackArrow";
-import { translate } from "@near-wallet-selector/core";
+import { translate } from "@meer-wallet-selector/core";
 
 interface WalletNotInstalledProps {
   module: ModuleState & {

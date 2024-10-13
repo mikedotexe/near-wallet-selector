@@ -7,27 +7,27 @@ import React, {
   useMemo,
 } from "react";
 import { map, distinctUntilChanged } from "rxjs";
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import type { WalletSelector, AccountState } from "@near-wallet-selector/core";
-import { setupExportSelectorModal } from "@near-wallet-selector/account-export";
-import type { WalletSelectorModal } from "@near-wallet-selector/account-export";
-import { setupHereWallet } from "@near-wallet-selector/here-wallet";
-import { setupSender } from "@near-wallet-selector/sender";
-import { setupBitgetWallet } from "@near-wallet-selector/bitget-wallet";
-import { setupMathWallet } from "@near-wallet-selector/math-wallet";
-import { setupNightly } from "@near-wallet-selector/nightly";
-import { setupMeteorWallet } from "@near-wallet-selector/meteor-wallet";
-import { setupWelldoneWallet } from "@near-wallet-selector/welldone-wallet";
-import { setupNearFi } from "@near-wallet-selector/nearfi";
-import { setupWalletConnect } from "@near-wallet-selector/wallet-connect";
-import { setupCoin98Wallet } from "@near-wallet-selector/coin98-wallet";
+import { setupWalletSelector } from "@meer-wallet-selector/core";
+import type { WalletSelector, AccountState } from "@meer-wallet-selector/core";
+import { setupExportSelectorModal } from "@meer-wallet-selector/account-export";
+import type { WalletSelectorModal } from "@meer-wallet-selector/account-export";
+import { setupHereWallet } from "@meer-wallet-selector/here-wallet";
+import { setupSender } from "@meer-wallet-selector/sender";
+import { setupBitgetWallet } from "@meer-wallet-selector/bitget-wallet";
+import { setupMathWallet } from "@meer-wallet-selector/math-wallet";
+import { setupNightly } from "@meer-wallet-selector/nightly";
+import { setupMeteorWallet } from "@meer-wallet-selector/meteor-wallet";
+import { setupWelldoneWallet } from "@meer-wallet-selector/welldone-wallet";
+import { setupNearFi } from "@meer-wallet-selector/nearfi";
+import { setupWalletConnect } from "@meer-wallet-selector/wallet-connect";
+import { setupCoin98Wallet } from "@meer-wallet-selector/coin98-wallet";
 import { Loading } from "../components/Loading";
-import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
-import { setupLedger } from "@near-wallet-selector/ledger";
-import { setupRamperWallet } from "@near-wallet-selector/ramper-wallet";
-import { setupNearMobileWallet } from "@near-wallet-selector/near-mobile-wallet";
-import { setupMintbaseWallet } from "@near-wallet-selector/mintbase-wallet";
-import { setupBitteWallet } from "@near-wallet-selector/bitte-wallet";
+import { setupMyNearWallet } from "@meer-wallet-selector/my-near-wallet";
+import { setupLedger } from "@meer-wallet-selector/ledger";
+import { setupRamperWallet } from "@meer-wallet-selector/ramper-wallet";
+import { setupNearMobileWallet } from "@meer-wallet-selector/near-mobile-wallet";
+import { setupMintbaseWallet } from "@meer-wallet-selector/bitte-wallet";
+import { setupBitteWallet } from "@meer-wallet-selector/bitte-wallet";
 import { CONTRACT_ID } from "../constants";
 
 declare global {
@@ -79,7 +79,7 @@ export const ExportAccountSelectorContextProvider: React.FC<{
           metadata: {
             name: "NEAR Wallet Selector",
             description: "Example dApp used by NEAR Wallet Selector",
-            url: "https://github.com/near/wallet-selector",
+            url: "https://github.com/mikedotexe/mallet-selector",
             icons: ["https://avatars.githubusercontent.com/u/37784886"],
           },
         }),
@@ -102,7 +102,7 @@ export const ExportAccountSelectorContextProvider: React.FC<{
     setAccounts(state.accounts);
 
     // this is added for debugging purpose only
-    // for more information (https://github.com/near/wallet-selector/pull/764#issuecomment-1498073367)
+    // for more information (https://github.com/mikedotexe/mallet-selector/pull/764#issuecomment-1498073367)
     window.importSelector = _selector;
     window.exportModal = _modal;
 

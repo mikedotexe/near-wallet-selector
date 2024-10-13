@@ -1,6 +1,6 @@
 import React from "react";
-import type { ModuleState } from "@near-wallet-selector/core";
-import { translate } from "@near-wallet-selector/core";
+import type { ModuleState } from "@meer-wallet-selector/core";
+import { translate } from "@meer-wallet-selector/core";
 import { ConnectionErrorIcon } from "./icons/ConnectionErrorIcon";
 import { ConnectionSuccessIcon } from "./icons/ConnectionSuccessIcon";
 

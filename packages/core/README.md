@@ -25,8 +25,8 @@ npm install @near-wallet-selector/core
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupMyNearWallet } from "@near-wallet-selector/my-near-wallet";
+import { setupWalletSelector } from "@meer-wallet-selector/core";
+import { setupMyNearWallet } from "@meer-wallet-selector/my-near-wallet";
 
 // The entire set of options can be found in the section below.
 const selector = await setupWalletSelector({

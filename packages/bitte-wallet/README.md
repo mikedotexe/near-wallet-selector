@@ -15,17 +15,17 @@ npm install near-api-js
 ```
 ```bash
 # Using Yarn
-yarn add @near-wallet-selector/mintbase-wallet
+yarn add @near-wallet-selector/bitte-wallet
 
 # Using NPM.
-npm install @near-wallet-selector/mintbase-wallet
+npm install @near-wallet-selector/bitte-wallet
 ```
 
 Then use it in your dApp:
 
 ```ts
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupMintbaseWallet } from "@near-wallet-selector/mintbase-wallet";
+import { setupWalletSelector } from "@meer-wallet-selector/core";
+import { setupMintbaseWallet } from "@meer-wallet-selector/bitte-wallet";
 
 const mintbaseWallet =  setupMintbaseWallet({
   networkId: 'mainnet',

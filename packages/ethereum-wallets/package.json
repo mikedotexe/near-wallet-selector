@@ -1,6 +1,6 @@
 {
-  "name": "@near-wallet-selector/ethereum-wallets",
-  "version": "8.9.13",
+  "name": "@meer-wallet-selector/ethereum-wallets",
+  "version": "9.9.9",
   "description": "Ethereum wallets package for NEAR Wallet Selector.",
   "scripts": {
     "compile:esm": "tsc -p tsconfig.esm.json",
@@ -15,7 +15,7 @@
     "@meer-js/providers": "*",
     "@meer-js/transactions": "*",
     "@meer-js/utils": "*",
-    "@near-wallet-selector/wallet-utils": "workspace:*",
+    "@meer-wallet-selector/wallet-utils": "workspace:*",
     "@wagmi/core": "*",
     "bs58": "*",
     "meer-api-js": "*",
@@ -53,10 +53,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/near/wallet-selector.git"
+    "url": "https://github.com/mikedotexe/mallet-selector.git"
   },
   "bugs": {
-    "url": "https://github.com/near/wallet-selector/issues"
+    "url": "https://github.com/mikedotexe/mallet-selector/issues"
   },
-  "homepage": "https://github.com/near/wallet-selector/tree/main/packages/ethereum-wallets"
+  "homepage": "https://github.com/mikedotexe/mallet-selector/tree/main/packages/ethereum-wallets"
 }

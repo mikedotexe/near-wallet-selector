@@ -7,9 +7,9 @@ import type { AccountView } from "@near-js/types";
 import { mock } from "jest-mock-extended";
 
 // import { mockWallet } from "../../../core/src/lib/testUtils";
-import { mockWallet } from "@near-wallet-selector/core/src/lib/testUtils";
-import type { MockWalletDependencies } from "@near-wallet-selector/core/src/lib/testUtils";
-import type { BrowserWallet } from "@near-wallet-selector/core";
+import { mockWallet } from "@meer-wallet-selector/core/src/lib/testUtils";
+import type { MockWalletDependencies } from "@meer-wallet-selector/core/src/lib/testUtils";
+import type { BrowserWallet } from "@meer-wallet-selector/core";
 
 const createMyNearWallet = async (deps: MockWalletDependencies = {}) => {
   const walletConnection = mock<WalletConnection>();

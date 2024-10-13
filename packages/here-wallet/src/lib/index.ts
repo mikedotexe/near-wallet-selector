@@ -3,7 +3,7 @@ import { waitInjectedHereWallet } from "@here-wallet/core";
 import type {
   WalletModuleFactory,
   InjectedWallet,
-} from "@near-wallet-selector/core";
+} from "@meer-wallet-selector/core";
 import { initHereWallet } from "./selector";
 import icon from "./icon";
 

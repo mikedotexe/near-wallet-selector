@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { ConnectionResult } from "./ConnectionResult";
-import type { ModuleState } from "@near-wallet-selector/core";
+import type { ModuleState } from "@meer-wallet-selector/core";
 import { ModalHeader } from "./ModalHeader";
 
 interface AlertMessageProps {

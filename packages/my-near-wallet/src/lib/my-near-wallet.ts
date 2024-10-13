@@ -8,13 +8,13 @@ import type {
   Optional,
   Network,
   Account,
-} from "@near-wallet-selector/core";
+} from "@meer-wallet-selector/core";
 
 import { createTransaction } from "@meer-js/transactions";
 import { baseDecode } from "@meer-js/utils";
 import { PublicKey } from "@meer-js/crypto";
 import { connect } from "meer-api-js";
-import { createAction } from "@near-wallet-selector/wallet-utils";
+import { createAction } from "@meer-wallet-selector/wallet-utils";
 import icon from "./icon";
 
 export interface MyNearWalletParams {

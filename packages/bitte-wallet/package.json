@@ -1,7 +1,7 @@
 {
-  "name": "@near-wallet-selector/mintbase-wallet",
-  "version": "8.9.13",
-  "description": "Mintbase wallet package for NEAR Wallet Selector.",
+  "name": "@meer-wallet-selector/bitte-wallet",
+  "version": "9.9.9",
+  "description": "Bitte wallet package for NEAR Wallet Selector.",
   "scripts": {
     "compile:esm": "tsc -p tsconfig.esm.json",
     "compile:cjs": "tsc -p tsconfig.cjs.json",
@@ -40,14 +40,15 @@
     "near-blockchain",
     "wallet selector",
     "browser wallet",
-    "mintbase wallet"
+    "mintbase wallet",
+    "bitte wallet"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/near/wallet-selector.git"
+    "url": "https://github.com/mikedotexe/mallet-selector.git"
   },
   "bugs": {
-    "url": "https://github.com/near/wallet-selector/issues"
+    "url": "https://github.com/mikedotexe/mallet-selector/issues"
   },
-  "homepage": "https://github.com/near/wallet-selector/tree/main/packages/mintbase-wallet"
+  "homepage": "https://github.com/mikedotexe/mallet-selector/tree/main/packages/mintbase-wallet"
 }

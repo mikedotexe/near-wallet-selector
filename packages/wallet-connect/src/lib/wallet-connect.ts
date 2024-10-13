@@ -14,9 +14,9 @@ import type {
   Account,
   SignMessageParams,
   SignedMessage,
-} from "@near-wallet-selector/core";
-import { getActiveAccount } from "@near-wallet-selector/core";
-import { createAction } from "@near-wallet-selector/wallet-utils";
+} from "@meer-wallet-selector/core";
+import { getActiveAccount } from "@meer-wallet-selector/core";
+import { createAction } from "@meer-wallet-selector/wallet-utils";
 
 import WalletConnectClient from "./wallet-connect-client";
 import icon from "./icon.js";

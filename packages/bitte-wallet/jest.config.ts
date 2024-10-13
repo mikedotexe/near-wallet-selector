@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: "mintbase-wallet",
+  displayName: "bitte-wallet",
   preset: "../../jest.preset.js",
   globals: {},
   transform: {
@@ -12,5 +12,5 @@ export default {
     ],
   },
   moduleFileExtensions: ["ts", "tsx", "js", "jsx"],
-  coverageDirectory: "../../coverage/packages/mintbase-wallet",
+  coverageDirectory: "../../coverage/packages/bitte-wallet",
 };

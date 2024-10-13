@@ -1,5 +1,5 @@
 import * as nearAPI from "meer-api-js";
-import type { AddKeyPermission, Action } from "@near-wallet-selector/core";
+import type { AddKeyPermission, Action } from "@meer-wallet-selector/core";
 const { transactions, utils } = nearAPI;
 
 const getAccessKey = (permission: AddKeyPermission) => {

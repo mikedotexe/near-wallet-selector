@@ -1,5 +1,5 @@
-import type { ModuleState, Wallet } from "@near-wallet-selector/core";
-import { translate } from "@near-wallet-selector/core";
+import type { ModuleState, Wallet } from "@meer-wallet-selector/core";
+import { translate } from "@meer-wallet-selector/core";
 
 import { connectToWallet } from "../render-modal";
 import copy from "copy-to-clipboard";

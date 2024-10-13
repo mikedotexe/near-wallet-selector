@@ -1,6 +1,6 @@
 {
-  "name": "@near-wallet-selector/here-wallet",
-  "version": "8.9.13",
+  "name": "@meer-wallet-selector/here-wallet",
+  "version": "9.9.9",
   "description": "Here wallet package for NEAR Wallet Selector.",
   "scripts": {
     "compile:esm": "tsc -p tsconfig.esm.json",
@@ -13,7 +13,7 @@
   "type": "module",
   "dependencies": {
     "@here-wallet/core": "*",
-    "@near-wallet-selector/core": "workspace:*"
+    "@meer-wallet-selector/core": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "*",
@@ -45,10 +45,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/near/wallet-selector.git"
+    "url": "https://github.com/mikedotexe/mallet-selector.git"
   },
   "bugs": {
-    "url": "https://github.com/near/wallet-selector/issues"
+    "url": "https://github.com/mikedotexe/mallet-selector/issues"
   },
-  "homepage": "https://github.com/near/wallet-selector/tree/main/packages/here-wallet"
+  "homepage": "https://github.com/mikedotexe/mallet-selector/tree/main/packages/here-wallet"
 }

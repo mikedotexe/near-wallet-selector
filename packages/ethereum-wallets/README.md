@@ -37,8 +37,8 @@ Visit https://docs.walletconnect.com for the latest configuration of Web3Modal.
 import type { Config } from "@wagmi/core";
 import { reconnect, http, createConfig } from "@wagmi/core";
 import { walletConnect, injected } from "@wagmi/connectors";
-import { setupWalletSelector } from "@near-wallet-selector/core";
-import { setupEthereumWallets } from "@near-wallet-selector/ethereum-wallets";
+import { setupWalletSelector } from "@meer-wallet-selector/core";
+import { setupEthereumWallets } from "@meer-wallet-selector/ethereum-wallets";
 
 const wagmiConfig: Config = createConfig({
   chains: [near],

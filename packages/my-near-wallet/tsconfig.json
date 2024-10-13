@@ -6,7 +6,7 @@
     "declarationMap": true,
     "types": ["node"],
     "paths": {
-      "@near-wallet-selector/*": ["../*"]
+      "@meer-wallet-selector/*": ["../*"]
     }
   },
   "include": ["src/**/*"]

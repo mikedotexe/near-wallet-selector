@@ -10,20 +10,20 @@ import type {
   SignMessageParams,
   SignedMessage,
   Transaction,
-} from "@near-wallet-selector/core";
+} from "@meer-wallet-selector/core";
 import {
   verifyFullKeyBelongsToUser,
   verifySignature,
-} from "@near-wallet-selector/core";
+} from "@meer-wallet-selector/core";
 
 import type { Message } from "../../interfaces/message";
 import type { Submitted } from "../form/form.component";
 import type { Account } from "../../interfaces/account";
 import type { Subscription } from "rxjs";
 import { distinctUntilChanged, map } from "rxjs";
-import { WalletSelectorModal } from "@near-wallet-selector/modal-ui-js";
+import { WalletSelectorModal } from "@meer-wallet-selector/modal-ui-js";
 import { CONTRACT_ID } from "../../../constants";
-import { WalletSelector } from "@near-wallet-selector/core";
+import { WalletSelector } from "@meer-wallet-selector/core";
 import type { GetAccountBalanceProps } from "../../interfaces/account-balance";
 
 const SUGGESTED_DONATION = "0";

@@ -8,7 +8,7 @@
     "types": ["node"],
     "jsx": "react-jsx",
     "paths": {
-      "@near-wallet-selector/*": ["../*"]
+      "@meer-wallet-selector/*": ["../*"]
     }
   },
   "include": ["src/**/*"]

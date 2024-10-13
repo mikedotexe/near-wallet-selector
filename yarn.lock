@@ -4006,6 +4006,163 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@meer-wallet-selector/bitte-wallet@workspace:packages/bitte-wallet":
+  version: 0.0.0-use.local
+  resolution: "@meer-wallet-selector/bitte-wallet@workspace:packages/bitte-wallet"
+  dependencies:
+    "@mintbase-js/wallet": "npm:*"
+    "@types/jest": "npm:*"
+    "@types/node": "npm:*"
+    jest: "npm:*"
+    rimraf: "npm:*"
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"@meer-wallet-selector/core@workspace:*, @meer-wallet-selector/core@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@meer-wallet-selector/core@workspace:packages/core"
+  dependencies:
+    "@meer-js/crypto": "npm:*"
+    "@meer-js/providers": "npm:*"
+    "@meer-js/transactions": "npm:*"
+    "@meer-js/types": "npm:*"
+    "@types/jest": "npm:*"
+    "@types/mocha": "npm:*"
+    "@types/node": "npm:*"
+    borsh: "npm:*"
+    jest: "npm:*"
+    jest-mock-extended: "npm:*"
+    js-sha256: "npm:*"
+    meer-api-js: "npm:*"
+    rimraf: "npm:*"
+    rxjs: "npm:*"
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"@meer-wallet-selector/ethereum-wallets@workspace:packages/ethereum-wallets":
+  version: 0.0.0-use.local
+  resolution: "@meer-wallet-selector/ethereum-wallets@workspace:packages/ethereum-wallets"
+  dependencies:
+    "@meer-js/providers": "npm:*"
+    "@meer-js/transactions": "npm:*"
+    "@meer-js/types": "npm:*"
+    "@meer-js/utils": "npm:*"
+    "@meer-wallet-selector/wallet-utils": "workspace:*"
+    "@types/node": "npm:*"
+    "@wagmi/core": "npm:*"
+    bs58: "npm:*"
+    meer-api-js: "npm:*"
+    rimraf: "npm:*"
+    typescript: "npm:*"
+    viem: "npm:*"
+    wagmi: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"@meer-wallet-selector/here-wallet@workspace:packages/here-wallet":
+  version: 0.0.0-use.local
+  resolution: "@meer-wallet-selector/here-wallet@workspace:packages/here-wallet"
+  dependencies:
+    "@here-wallet/core": "npm:*"
+    "@meer-wallet-selector/core": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/node": "npm:*"
+    jest: "npm:*"
+    rimraf: "npm:*"
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"@meer-wallet-selector/modal-ui-js@workspace:packages/modal-ui-js":
+  version: 0.0.0-use.local
+  resolution: "@meer-wallet-selector/modal-ui-js@workspace:packages/modal-ui-js"
+  dependencies:
+    "@types/node": "npm:*"
+    copy-to-clipboard: "npm:*"
+    jest: "npm:*"
+    qrcode: "npm:*"
+    react: "npm:*"
+    rimraf: "npm:*"
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"@meer-wallet-selector/modal-ui@workspace:packages/modal-ui":
+  version: 0.0.0-use.local
+  resolution: "@meer-wallet-selector/modal-ui@workspace:packages/modal-ui"
+  dependencies:
+    "@meer-wallet-selector/core": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/node": "npm:*"
+    "@types/react": "npm:*"
+    copy-to-clipboard: "npm:*"
+    jest: "npm:*"
+    qrcode: "npm:*"
+    react: "npm:*"
+    react-dom: "npm:*"
+    rimraf: "npm:*"
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"@meer-wallet-selector/my-near-wallet@workspace:packages/my-near-wallet":
+  version: 0.0.0-use.local
+  resolution: "@meer-wallet-selector/my-near-wallet@workspace:packages/my-near-wallet"
+  dependencies:
+    "@meer-js/crypto": "npm:*"
+    "@meer-js/keystores-browser": "npm:*"
+    "@meer-js/signers": "npm:*"
+    "@meer-js/transactions": "npm:*"
+    "@meer-js/types": "npm:*"
+    "@meer-js/utils": "npm:*"
+    "@meer-js/wallet-account": "npm:*"
+    "@meer-wallet-selector/core": "workspace:*"
+    "@meer-wallet-selector/wallet-utils": "workspace:*"
+    "@types/jest": "npm:*"
+    "@types/node": "npm:*"
+    jest: "npm:*"
+    jest-mock-extended: "npm:*"
+    meer-api-js: "npm:*"
+    rimraf: "npm:6.0.1"
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"@meer-wallet-selector/wallet-connect@workspace:packages/wallet-connect":
+  version: 0.0.0-use.local
+  resolution: "@meer-wallet-selector/wallet-connect@workspace:packages/wallet-connect"
+  dependencies:
+    "@meer-js/types": "npm:*"
+    "@types/node": "npm:*"
+    "@walletconnect/modal": "npm:*"
+    "@walletconnect/sign-client": "npm:*"
+    "@walletconnect/types": "npm:*"
+    meer-api-js: "npm:*"
+    rimraf: "npm:*"
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"@meer-wallet-selector/wallet-utils@workspace:*, @meer-wallet-selector/wallet-utils@workspace:packages/wallet-utils":
+  version: 0.0.0-use.local
+  resolution: "@meer-wallet-selector/wallet-utils@workspace:packages/wallet-utils"
+  dependencies:
+    "@meer-js/crypto": "npm:*"
+    "@meer-js/providers": "npm:*"
+    "@meer-js/signers": "npm:*"
+    "@meer-js/transactions": "npm:*"
+    "@meer-js/types": "npm:*"
+    "@meer-js/utils": "npm:*"
+    "@meer-wallet-selector/core": "workspace:*"
+    "@types/node": "npm:*"
+    meer-api-js: "npm:*"
+    rimraf: "npm:*"
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
 "@metamask/detect-provider@npm:2.0.0":
   version: 2.0.0
   resolution: "@metamask/detect-provider@npm:2.0.0"
@@ -4984,162 +5141,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@near-wallet-selector/core@npm:^8.2.0, @near-wallet-selector/core@workspace:*, @near-wallet-selector/core@workspace:packages/core":
-  version: 0.0.0-use.local
-  resolution: "@near-wallet-selector/core@workspace:packages/core"
+"@near-wallet-selector/core@npm:8.9.13, @near-wallet-selector/core@npm:^8.2.0":
+  version: 8.9.13
+  resolution: "@near-wallet-selector/core@npm:8.9.13"
   dependencies:
-    "@meer-js/crypto": "npm:*"
-    "@meer-js/providers": "npm:*"
-    "@meer-js/transactions": "npm:*"
-    "@meer-js/types": "npm:*"
-    "@types/jest": "npm:*"
-    "@types/mocha": "npm:*"
-    "@types/node": "npm:*"
-    borsh: "npm:*"
-    jest: "npm:*"
-    jest-mock-extended: "npm:*"
-    js-sha256: "npm:*"
-    meer-api-js: "npm:*"
-    rimraf: "npm:*"
-    rxjs: "npm:*"
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
+    borsh: "npm:0.7.0"
+    events: "npm:3.3.0"
+    js-sha256: "npm:0.9.0"
+    rxjs: "npm:7.8.1"
+  peerDependencies:
+    "@near-js/providers": "*"
+    near-api-js: 4.0.3
+  checksum: 10c0/09951c2017b9c56d0c5f4f5a5521aaf21114591d44a16c6dfe44f729f149352ca2cadcd259d6f987d54ab8ad1402825a103b6be8908c637aa6d19c4ecf8905bb
+  languageName: node
+  linkType: hard
 
-"@near-wallet-selector/ethereum-wallets@workspace:packages/ethereum-wallets":
-  version: 0.0.0-use.local
-  resolution: "@near-wallet-selector/ethereum-wallets@workspace:packages/ethereum-wallets"
+"@near-wallet-selector/wallet-utils@npm:^8.9.12":
+  version: 8.9.13
+  resolution: "@near-wallet-selector/wallet-utils@npm:8.9.13"
   dependencies:
-    "@meer-js/providers": "npm:*"
-    "@meer-js/transactions": "npm:*"
-    "@meer-js/types": "npm:*"
-    "@meer-js/utils": "npm:*"
-    "@near-wallet-selector/wallet-utils": "workspace:*"
-    "@types/node": "npm:*"
-    "@wagmi/core": "npm:*"
-    bs58: "npm:*"
-    meer-api-js: "npm:*"
-    rimraf: "npm:*"
-    typescript: "npm:*"
-    viem: "npm:*"
-    wagmi: "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@near-wallet-selector/here-wallet@workspace:packages/here-wallet":
-  version: 0.0.0-use.local
-  resolution: "@near-wallet-selector/here-wallet@workspace:packages/here-wallet"
-  dependencies:
-    "@here-wallet/core": "npm:*"
-    "@near-wallet-selector/core": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/node": "npm:*"
-    jest: "npm:*"
-    rimraf: "npm:*"
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@near-wallet-selector/mintbase-wallet@workspace:packages/mintbase-wallet":
-  version: 0.0.0-use.local
-  resolution: "@near-wallet-selector/mintbase-wallet@workspace:packages/mintbase-wallet"
-  dependencies:
-    "@mintbase-js/wallet": "npm:*"
-    "@types/jest": "npm:*"
-    "@types/node": "npm:*"
-    jest: "npm:*"
-    rimraf: "npm:*"
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@near-wallet-selector/modal-ui-js@workspace:packages/modal-ui-js":
-  version: 0.0.0-use.local
-  resolution: "@near-wallet-selector/modal-ui-js@workspace:packages/modal-ui-js"
-  dependencies:
-    "@types/node": "npm:*"
-    copy-to-clipboard: "npm:*"
-    jest: "npm:*"
-    qrcode: "npm:*"
-    react: "npm:*"
-    rimraf: "npm:*"
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@near-wallet-selector/modal-ui@workspace:packages/modal-ui":
-  version: 0.0.0-use.local
-  resolution: "@near-wallet-selector/modal-ui@workspace:packages/modal-ui"
-  dependencies:
-    "@near-wallet-selector/core": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/node": "npm:*"
-    "@types/react": "npm:*"
-    copy-to-clipboard: "npm:*"
-    jest: "npm:*"
-    qrcode: "npm:*"
-    react: "npm:*"
-    react-dom: "npm:*"
-    rimraf: "npm:*"
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@near-wallet-selector/my-near-wallet@workspace:packages/my-near-wallet":
-  version: 0.0.0-use.local
-  resolution: "@near-wallet-selector/my-near-wallet@workspace:packages/my-near-wallet"
-  dependencies:
-    "@meer-js/crypto": "npm:*"
-    "@meer-js/keystores-browser": "npm:*"
-    "@meer-js/signers": "npm:*"
-    "@meer-js/transactions": "npm:*"
-    "@meer-js/types": "npm:*"
-    "@meer-js/utils": "npm:*"
-    "@meer-js/wallet-account": "npm:*"
-    "@near-wallet-selector/core": "workspace:*"
-    "@near-wallet-selector/wallet-utils": "workspace:*"
-    "@types/jest": "npm:*"
-    "@types/node": "npm:*"
-    jest: "npm:*"
-    jest-mock-extended: "npm:*"
-    meer-api-js: "npm:*"
-    rimraf: "npm:6.0.1"
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@near-wallet-selector/wallet-connect@workspace:packages/wallet-connect":
-  version: 0.0.0-use.local
-  resolution: "@near-wallet-selector/wallet-connect@workspace:packages/wallet-connect"
-  dependencies:
-    "@meer-js/types": "npm:*"
-    "@types/node": "npm:*"
-    "@walletconnect/modal": "npm:*"
-    "@walletconnect/sign-client": "npm:*"
-    "@walletconnect/types": "npm:*"
-    meer-api-js: "npm:*"
-    rimraf: "npm:*"
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@near-wallet-selector/wallet-utils@npm:^8.9.12, @near-wallet-selector/wallet-utils@workspace:*, @near-wallet-selector/wallet-utils@workspace:packages/wallet-utils":
-  version: 0.0.0-use.local
-  resolution: "@near-wallet-selector/wallet-utils@workspace:packages/wallet-utils"
-  dependencies:
-    "@meer-js/crypto": "npm:*"
-    "@meer-js/providers": "npm:*"
-    "@meer-js/signers": "npm:*"
-    "@meer-js/transactions": "npm:*"
-    "@meer-js/types": "npm:*"
-    "@meer-js/utils": "npm:*"
-    "@near-wallet-selector/core": "workspace:*"
-    "@types/node": "npm:*"
-    meer-api-js: "npm:*"
-    rimraf: "npm:*"
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
+    "@near-wallet-selector/core": "npm:8.9.13"
+  peerDependencies:
+    near-api-js: 4.0.3
+  checksum: 10c0/acabece163cc428224b089f81508e13b4193d4ffc37c920d18a0bc16a508a98d8645b15156f0cf057473864a8985ad16ca77dc3f3b6279880c5e1bc3aa7dcc58
+  languageName: node
+  linkType: hard
 
 "@next/env@npm:13.3.0":
   version: 13.3.0
@@ -21541,6 +21567,150 @@ __metadata:
   languageName: node
   linkType: hard
 
+"meer-wallet-selector@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "meer-wallet-selector@workspace:."
+  dependencies:
+    "@angular-devkit/build-angular": "npm:16.1.8"
+    "@angular-devkit/core": "npm:16.1.8"
+    "@angular-devkit/schematics": "npm:16.1.8"
+    "@angular-eslint/eslint-plugin": "npm:15.0.0"
+    "@angular-eslint/eslint-plugin-template": "npm:15.0.0"
+    "@angular-eslint/template-parser": "npm:15.0.0"
+    "@angular/animations": "npm:16.1.9"
+    "@angular/cli": "npm:16.1.8"
+    "@angular/common": "npm:16.1.9"
+    "@angular/compiler": "npm:16.1.9"
+    "@angular/compiler-cli": "npm:16.1.8"
+    "@angular/core": "npm:16.1.9"
+    "@angular/forms": "npm:16.1.9"
+    "@angular/language-service": "npm:15.2.9"
+    "@angular/platform-browser": "npm:16.1.9"
+    "@angular/platform-browser-dynamic": "npm:16.1.9"
+    "@angular/router": "npm:16.1.9"
+    "@babel/preset-react": "npm:7.16.7"
+    "@babel/runtime": "npm:7.24.8"
+    "@here-wallet/core": "npm:3.3.1"
+    "@jscutlery/semver": "npm:5.3.1"
+    "@ledgerhq/hw-transport": "npm:6.30.3"
+    "@ledgerhq/hw-transport-webhid": "npm:6.29.2"
+    "@meer-js/crypto": "npm:^6.6.6"
+    "@meer-js/keystores-browser": "npm:^6.6.6"
+    "@meer-js/providers": "npm:^6.6.6"
+    "@meer-js/signers": "npm:^6.6.6"
+    "@meer-js/transactions": "npm:^6.6.6"
+    "@meer-js/types": "npm:^6.6.6"
+    "@meer-js/utils": "npm:^6.6.6"
+    "@meer-js/wallet-account": "npm:^6.6.6"
+    "@metamask/detect-provider": "npm:2.0.0"
+    "@mintbase-js/wallet": "npm:0.6.1"
+    "@near-snap/sdk": "npm:0.6.0"
+    "@noble/ciphers": "npm:0.5.3"
+    "@noble/hashes": "npm:1.4.0"
+    "@nrwl/js": "npm:16.0.0"
+    "@nrwl/rollup": "npm:16.0.0"
+    "@nrwl/tao": "npm:16.0.0"
+    "@nrwl/webpack": "npm:16.0.0"
+    "@peersyst/near-mobile-signer": "npm:1.1.0"
+    "@pmmmwh/react-refresh-webpack-plugin": "npm:0.5.7"
+    "@ramper/near": "npm:0.0.30"
+    "@schematics/angular": "npm:15.2.8"
+    "@semantic-release/commit-analyzer": "npm:9.0.2"
+    "@semantic-release/git": "npm:10.0.1"
+    "@semantic-release/npm": "npm:9.0.0"
+    "@svgr/webpack": "npm:6.1.2"
+    "@tanstack/react-query": "npm:5.24.8"
+    "@testing-library/jest-dom": "npm:5.16.1"
+    "@testing-library/react": "npm:13.4.0"
+    "@testing-library/react-hooks": "npm:7.0.2"
+    "@types/big.js": "npm:6.2.2"
+    "@types/gh-pages": "npm:6.1.0"
+    "@types/jest": "npm:29.4.4"
+    "@types/node": "npm:^22.7.4"
+    "@types/qrcode": "npm:1.5.5"
+    "@types/react": "npm:18.0.25"
+    "@types/react-dom": "npm:18.0.9"
+    "@types/regenerator-runtime": "npm:0.13.1"
+    "@types/w3c-web-hid": "npm:1.0.3"
+    "@types/w3c-web-usb": "npm:1.0.6"
+    "@typescript-eslint/eslint-plugin": "npm:5.58.0"
+    "@typescript-eslint/parser": "npm:5.58.0"
+    "@wagmi/core": "npm:2.10.6"
+    "@walletconnect/modal": "npm:2.6.2"
+    "@walletconnect/sign-client": "npm:2.13.0"
+    "@walletconnect/types": "npm:^2.17.1"
+    "@web3modal/wagmi": "npm:5.0.6"
+    babel-jest: "npm:29.4.3"
+    better-sqlite3: "npm:11.2.1"
+    big.js: "npm:6.2.1"
+    borsh: "npm:2.0.0"
+    browserify-fs: "npm:1.0.0"
+    bs58: "npm:5.0.0"
+    buffer: "npm:6.0.3"
+    copy-to-clipboard: "npm:3.3.3"
+    core-js: "npm:3.6.5"
+    crypto-browserify: "npm:3.12.0"
+    css-loader: "npm:7.1.2"
+    cypress: "npm:12.2.0"
+    eslint: "npm:8.15.0"
+    eslint-config-next: "npm:14.2.5"
+    eslint-config-prettier: "npm:8.1.0"
+    eslint-plugin-cypress: "npm:2.10.3"
+    eslint-plugin-import: "npm:2.26.0"
+    eslint-plugin-jsx-a11y: "npm:6.6.1"
+    eslint-plugin-prettier: "npm:4.2.1"
+    eslint-plugin-react: "npm:7.31.11"
+    eslint-plugin-react-hooks: "npm:4.6.2"
+    ethers: "npm:5.7.2"
+    gh-pages: "npm:6.1.1"
+    https-browserify: "npm:1.0.0"
+    is-mobile: "npm:4.0.0"
+    jest: "npm:29.7.0"
+    jest-environment-jsdom: "npm:29.7.0"
+    jest-mock-extended: "npm:2.0.6"
+    jest-preset-angular: "npm:13.0.0"
+    js-sha256: "npm:^0.11.0"
+    jsdoc: "npm:4.0.2"
+    jspm: "npm:3.1.0"
+    meer-api-js: "npm:^6.6.6"
+    near-seed-phrase: "npm:0.2.0"
+    next: "npm:13.3.0"
+    ngx-deploy-npm: "npm:7.1.0"
+    nx: "npm:16.4.0"
+    nx-cloud: "npm:16.0.5"
+    path-browserify: "npm:1.0.1"
+    prettier: "npm:2.7.1"
+    qrcode: "npm:1.5.4"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    react-qr-code: "npm:2.0.15"
+    react-refresh: "npm:0.10.0"
+    react-test-renderer: "npm:18.2.0"
+    regenerator-runtime: "npm:0.14.1"
+    rxjs: "npm:7.8.1"
+    sass: "npm:1.55.0"
+    semantic-release: "npm:19.0.2"
+    stream-browserify: "npm:3.0.0"
+    stream-http: "npm:3.2.0"
+    style-loader: "npm:3.3.0"
+    stylus: "npm:0.55.0"
+    stylus-loader: "npm:7.1.0"
+    ts-jest: "npm:29.1.0"
+    ts-node: "npm:10.9.1"
+    ts-prune: "npm:0.10.3"
+    tslib: "npm:2.7.0"
+    typescript: "npm:^5.6.2"
+    url: "npm:0.11.0"
+    url-loader: "npm:4.1.1"
+    util: "npm:0.12.5"
+    viem: "npm:2.16.2"
+    wagmi: "npm:2.10.9"
+    webpack: "npm:5.75.0"
+    webpack-merge: "npm:5.8.0"
+    zone.js: "npm:0.12.0"
+  languageName: unknown
+  linkType: soft
+
 "memfs@npm:^3.4.1, memfs@npm:^3.4.12, memfs@npm:^3.4.3":
   version: 3.5.3
   resolution: "memfs@npm:3.5.3"
@@ -22342,150 +22512,6 @@ __metadata:
   checksum: 10c0/512f6b5f3236d054a4796861247e8c735c5a0eb17ad5a2c70e28bc69e409ae0340948c98cb972462d0b14f8cd7dc9ecea046de71ac42ec49cf5fbb0c47441da2
   languageName: node
   linkType: hard
-
-"near-wallet-selector@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "near-wallet-selector@workspace:."
-  dependencies:
-    "@angular-devkit/build-angular": "npm:16.1.8"
-    "@angular-devkit/core": "npm:16.1.8"
-    "@angular-devkit/schematics": "npm:16.1.8"
-    "@angular-eslint/eslint-plugin": "npm:15.0.0"
-    "@angular-eslint/eslint-plugin-template": "npm:15.0.0"
-    "@angular-eslint/template-parser": "npm:15.0.0"
-    "@angular/animations": "npm:16.1.9"
-    "@angular/cli": "npm:16.1.8"
-    "@angular/common": "npm:16.1.9"
-    "@angular/compiler": "npm:16.1.9"
-    "@angular/compiler-cli": "npm:16.1.8"
-    "@angular/core": "npm:16.1.9"
-    "@angular/forms": "npm:16.1.9"
-    "@angular/language-service": "npm:15.2.9"
-    "@angular/platform-browser": "npm:16.1.9"
-    "@angular/platform-browser-dynamic": "npm:16.1.9"
-    "@angular/router": "npm:16.1.9"
-    "@babel/preset-react": "npm:7.16.7"
-    "@babel/runtime": "npm:7.24.8"
-    "@here-wallet/core": "npm:3.3.1"
-    "@jscutlery/semver": "npm:5.3.1"
-    "@ledgerhq/hw-transport": "npm:6.30.3"
-    "@ledgerhq/hw-transport-webhid": "npm:6.29.2"
-    "@meer-js/crypto": "npm:^6.6.6"
-    "@meer-js/keystores-browser": "npm:^6.6.6"
-    "@meer-js/providers": "npm:^6.6.6"
-    "@meer-js/signers": "npm:^6.6.6"
-    "@meer-js/transactions": "npm:^6.6.6"
-    "@meer-js/types": "npm:^6.6.6"
-    "@meer-js/utils": "npm:^6.6.6"
-    "@meer-js/wallet-account": "npm:^6.6.6"
-    "@metamask/detect-provider": "npm:2.0.0"
-    "@mintbase-js/wallet": "npm:0.6.1"
-    "@near-snap/sdk": "npm:0.6.0"
-    "@noble/ciphers": "npm:0.5.3"
-    "@noble/hashes": "npm:1.4.0"
-    "@nrwl/js": "npm:16.0.0"
-    "@nrwl/rollup": "npm:16.0.0"
-    "@nrwl/tao": "npm:16.0.0"
-    "@nrwl/webpack": "npm:16.0.0"
-    "@peersyst/near-mobile-signer": "npm:1.1.0"
-    "@pmmmwh/react-refresh-webpack-plugin": "npm:0.5.7"
-    "@ramper/near": "npm:0.0.30"
-    "@schematics/angular": "npm:15.2.8"
-    "@semantic-release/commit-analyzer": "npm:9.0.2"
-    "@semantic-release/git": "npm:10.0.1"
-    "@semantic-release/npm": "npm:9.0.0"
-    "@svgr/webpack": "npm:6.1.2"
-    "@tanstack/react-query": "npm:5.24.8"
-    "@testing-library/jest-dom": "npm:5.16.1"
-    "@testing-library/react": "npm:13.4.0"
-    "@testing-library/react-hooks": "npm:7.0.2"
-    "@types/big.js": "npm:6.2.2"
-    "@types/gh-pages": "npm:6.1.0"
-    "@types/jest": "npm:29.4.4"
-    "@types/node": "npm:^22.7.4"
-    "@types/qrcode": "npm:1.5.5"
-    "@types/react": "npm:18.0.25"
-    "@types/react-dom": "npm:18.0.9"
-    "@types/regenerator-runtime": "npm:0.13.1"
-    "@types/w3c-web-hid": "npm:1.0.3"
-    "@types/w3c-web-usb": "npm:1.0.6"
-    "@typescript-eslint/eslint-plugin": "npm:5.58.0"
-    "@typescript-eslint/parser": "npm:5.58.0"
-    "@wagmi/core": "npm:2.10.6"
-    "@walletconnect/modal": "npm:2.6.2"
-    "@walletconnect/sign-client": "npm:2.13.0"
-    "@walletconnect/types": "npm:^2.17.1"
-    "@web3modal/wagmi": "npm:5.0.6"
-    babel-jest: "npm:29.4.3"
-    better-sqlite3: "npm:11.2.1"
-    big.js: "npm:6.2.1"
-    borsh: "npm:2.0.0"
-    browserify-fs: "npm:1.0.0"
-    bs58: "npm:5.0.0"
-    buffer: "npm:6.0.3"
-    copy-to-clipboard: "npm:3.3.3"
-    core-js: "npm:3.6.5"
-    crypto-browserify: "npm:3.12.0"
-    css-loader: "npm:7.1.2"
-    cypress: "npm:12.2.0"
-    eslint: "npm:8.15.0"
-    eslint-config-next: "npm:14.2.5"
-    eslint-config-prettier: "npm:8.1.0"
-    eslint-plugin-cypress: "npm:2.10.3"
-    eslint-plugin-import: "npm:2.26.0"
-    eslint-plugin-jsx-a11y: "npm:6.6.1"
-    eslint-plugin-prettier: "npm:4.2.1"
-    eslint-plugin-react: "npm:7.31.11"
-    eslint-plugin-react-hooks: "npm:4.6.2"
-    ethers: "npm:5.7.2"
-    gh-pages: "npm:6.1.1"
-    https-browserify: "npm:1.0.0"
-    is-mobile: "npm:4.0.0"
-    jest: "npm:29.7.0"
-    jest-environment-jsdom: "npm:29.7.0"
-    jest-mock-extended: "npm:2.0.6"
-    jest-preset-angular: "npm:13.0.0"
-    js-sha256: "npm:^0.11.0"
-    jsdoc: "npm:4.0.2"
-    jspm: "npm:3.1.0"
-    meer-api-js: "npm:^6.6.6"
-    near-seed-phrase: "npm:0.2.0"
-    next: "npm:13.3.0"
-    ngx-deploy-npm: "npm:7.1.0"
-    nx: "npm:16.4.0"
-    nx-cloud: "npm:16.0.5"
-    path-browserify: "npm:1.0.1"
-    prettier: "npm:2.7.1"
-    qrcode: "npm:1.5.4"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-qr-code: "npm:2.0.15"
-    react-refresh: "npm:0.10.0"
-    react-test-renderer: "npm:18.2.0"
-    regenerator-runtime: "npm:0.14.1"
-    rxjs: "npm:7.8.1"
-    sass: "npm:1.55.0"
-    semantic-release: "npm:19.0.2"
-    stream-browserify: "npm:3.0.0"
-    stream-http: "npm:3.2.0"
-    style-loader: "npm:3.3.0"
-    stylus: "npm:0.55.0"
-    stylus-loader: "npm:7.1.0"
-    ts-jest: "npm:29.1.0"
-    ts-node: "npm:10.9.1"
-    ts-prune: "npm:0.10.3"
-    tslib: "npm:2.7.0"
-    typescript: "npm:^5.6.2"
-    url: "npm:0.11.0"
-    url-loader: "npm:4.1.1"
-    util: "npm:0.12.5"
-    viem: "npm:2.16.2"
-    wagmi: "npm:2.10.9"
-    webpack: "npm:5.75.0"
-    webpack-merge: "npm:5.8.0"
-    zone.js: "npm:0.12.0"
-  languageName: unknown
-  linkType: soft
 
 "needle@npm:^3.1.0":
   version: 3.3.1

@@ -1,5 +1,5 @@
-import type { Wallet } from "@near-wallet-selector/core";
-import type { ModuleState } from "@near-wallet-selector/core";
+import type { Wallet } from "@meer-wallet-selector/core";
+import type { ModuleState } from "@meer-wallet-selector/core";
 
 type AlertMessageModalRouteParams = {
   module: ModuleState;
