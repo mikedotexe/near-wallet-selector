@@ -72,7 +72,7 @@ export type {
   SignMessageParams,
 } from "./lib/wallet";
 
-export type { FinalExecutionOutcome } from "@near-js/types";
+export type { FinalExecutionOutcome } from "@meer-js/types";
 
 export {
   waitFor,

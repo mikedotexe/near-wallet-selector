@@ -12,18 +12,18 @@
   "module": "./dist/esm/index.js",
   "type": "module",
   "dependencies": {
-    "@near-js/providers": "*",
-    "@near-js/transactions": "*",
-    "@near-js/utils": "*",
+    "@meer-js/providers": "*",
+    "@meer-js/transactions": "*",
+    "@meer-js/utils": "*",
     "@near-wallet-selector/wallet-utils": "workspace:*",
     "@wagmi/core": "*",
     "bs58": "*",
-    "near-api-js": "*",
+    "meer-api-js": "*",
     "viem": "*",
     "wagmi": "*"
   },
   "devDependencies": {
-    "@near-js/types": "*",
+    "@meer-js/types": "*",
     "@types/node": "*",
     "rimraf": "*",
     "typescript": "*"

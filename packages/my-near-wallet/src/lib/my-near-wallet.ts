@@ -1,5 +1,5 @@
-import { WalletConnection } from "@near-js/wallet-account";
-import { BrowserLocalStorageKeyStore } from "@near-js/keystores-browser";
+import { WalletConnection } from "@meer-js/wallet-account";
+import { BrowserLocalStorageKeyStore } from "@meer-js/keystores-browser";
 import type {
   WalletModuleFactory,
   WalletBehaviourFactory,
@@ -10,10 +10,10 @@ import type {
   Account,
 } from "@near-wallet-selector/core";
 
-import { createTransaction } from "@near-js/transactions";
-import { baseDecode } from "@near-js/utils";
-import { PublicKey } from "@near-js/crypto";
-import { connect } from "near-api-js";
+import { createTransaction } from "@meer-js/transactions";
+import { baseDecode } from "@meer-js/utils";
+import { PublicKey } from "@meer-js/crypto";
+import { connect } from "meer-api-js";
 import { createAction } from "@near-wallet-selector/wallet-utils";
 import icon from "./icon";
 

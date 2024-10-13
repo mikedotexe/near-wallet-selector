@@ -8,8 +8,8 @@ import type { Options } from "../options.types";
 import type { ReadOnlyStore } from "../store.types";
 import type { Transaction, Action } from "./transactions.types";
 import type { Modify, Optional } from "../utils.types";
-import type { FinalExecutionOutcome } from "@near-js/types";
-import { KeyType } from "@near-js/crypto";
+import type { FinalExecutionOutcome } from "@meer-js/types";
+import { KeyType } from "@meer-js/crypto";
 
 interface BaseWalletMetadata {
   /**

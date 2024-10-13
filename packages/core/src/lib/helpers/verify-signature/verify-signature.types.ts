@@ -1,5 +1,5 @@
 import type { Network } from "../../options.types";
-import { KeyType } from "@near-js/crypto";
+import { KeyType } from "@meer-js/crypto";
 
 export interface IPublicKey {
   keyType: KeyType,

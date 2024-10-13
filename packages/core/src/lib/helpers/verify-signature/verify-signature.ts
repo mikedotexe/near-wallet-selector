@@ -6,10 +6,10 @@ import type {
   ViewAccessKeyParams,
 } from "./verify-signature.types";
 import {Payload, payloadSchema} from "./payload";
-import type { AccessKeyView } from "@near-js/types";
-import {KeyType, PublicKey, publicKeyFrom} from "../../../../../../../near-api-js/packages/crypto";
-// import {KeyType, PublicKey, publicKeyFrom} from "@near-js/crypto";
-import {JsonRpcProvider} from "@near-js/providers";
+import type { AccessKeyView } from "@meer-js/types";
+import {KeyType, PublicKey, publicKeyFrom} from "@meer-js/types";
+// import {KeyType, PublicKey, publicKeyFrom} from "@meer-js/crypto";
+import {JsonRpcProvider} from "@meer-js/providers";
 
 export const verifySignature = ({
   publicKey,

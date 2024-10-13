@@ -12,16 +12,16 @@
   "module": "./dist/esm/wallet-utils/src/index.js",
   "type": "module",
   "dependencies": {
-    "@near-js/crypto": "*",
-    "@near-js/providers": "*",
-    "@near-js/signers": "*",
-    "@near-js/transactions": "*",
-    "@near-js/utils": "*",
+    "@meer-js/crypto": "*",
+    "@meer-js/providers": "*",
+    "@meer-js/signers": "*",
+    "@meer-js/transactions": "*",
+    "@meer-js/utils": "*",
     "@near-wallet-selector/core": "workspace:*",
-    "near-api-js": "*"
+    "meer-api-js": "*"
   },
   "devDependencies": {
-    "@near-js/types": "*",
+    "@meer-js/types": "*",
     "@types/node": "*",
     "rimraf": "*",
     "typescript": "*"

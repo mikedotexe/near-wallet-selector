@@ -1,4 +1,4 @@
-import type { AccountView } from "near-api-js/dist/esm/providers/provider";
+import type { AccountView } from "@meer-js/types";
 
 export interface Message {
   premium: boolean;

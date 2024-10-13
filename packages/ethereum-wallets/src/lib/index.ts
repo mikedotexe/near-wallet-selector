@@ -1,8 +1,8 @@
-import * as nearAPI from "near-api-js";
-import type { AccessKeyViewRaw, ExecutionStatus, FinalExecutionOutcome, FunctionCallPermissionView, } from "@near-js/types";
-import { JsonRpcProvider } from "@near-js/providers";
-import { stringifyJsonOrBytes } from "@near-js/transactions";
-import { parseRpcError } from "@near-js/utils";
+import * as nearAPI from "meer-api-js";
+import type { AccessKeyViewRaw, ExecutionStatus, FinalExecutionOutcome, FunctionCallPermissionView, } from "@meer-js/types";
+import { JsonRpcProvider } from "@meer-js/providers";
+import { stringifyJsonOrBytes } from "@meer-js/transactions";
+import { parseRpcError } from "@meer-js/utils";
 import {
   type WalletModuleFactory,
   type WalletBehaviourFactory,

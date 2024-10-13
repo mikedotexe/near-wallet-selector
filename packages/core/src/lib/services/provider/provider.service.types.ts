@@ -4,8 +4,8 @@ import type {
   BlockResult,
   QueryResponseKind,
   FinalExecutionOutcome,
-} from "@near-js/types";
-import type { SignedTransaction } from "@near-js/transactions";
+} from "@meer-js/types";
+import type { SignedTransaction } from "@meer-js/transactions";
 
 export type QueryParams = { [key in string]: unknown };
 

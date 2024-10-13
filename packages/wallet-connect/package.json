@@ -14,10 +14,10 @@
   "dependencies": {
     "@walletconnect/modal": "*",
     "@walletconnect/sign-client": "*",
-    "near-api-js": "*"
+    "meer-api-js": "*"
   },
   "devDependencies": {
-    "@near-js/types": "*",
+    "@meer-js/types": "*",
     "@types/node": "*",
     "@walletconnect/types": "*",
     "rimraf": "*",

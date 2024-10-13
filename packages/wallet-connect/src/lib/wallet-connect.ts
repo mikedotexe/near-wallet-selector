@@ -1,6 +1,6 @@
-import type { KeyPair, providers } from "near-api-js";
-import * as nearAPI from "near-api-js";
-import type { AccessKeyViewRaw } from "@near-js/types";
+import type { KeyPair, providers } from "meer-api-js";
+import * as nearAPI from "meer-api-js";
+import type { AccessKeyViewRaw } from "@meer-js/types";
 import type { SignClientTypes, SessionTypes } from "@walletconnect/types";
 import type {
   WalletModuleFactory,

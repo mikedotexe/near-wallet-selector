@@ -1,13 +1,13 @@
-// import type { Signer } from "near-api-js";
-import type {Signer} from "@near-js/signers";
-import {KeyType, PublicKey} from "@near-js/crypto";
-import type {SignedTransaction} from "@near-js/transactions";
-import {createTransaction, signTransaction} from "@near-js/transactions";
-import {baseDecode} from "@near-js/utils";
-// import * as nearAPI from "near-api-js";
-import {JsonRpcProvider} from "@near-js/providers";
+// import type { Signer } from "meer-api-js";
+import type {Signer} from "@meer-js/signers";
+import {KeyType, PublicKey} from "@meer-js/crypto";
+import type {SignedTransaction} from "@meer-js/transactions";
+import {createTransaction, signTransaction} from "@meer-js/transactions";
+import {baseDecode} from "@meer-js/utils";
+// import * as nearAPI from "meer-api-js";
+import {JsonRpcProvider} from "@meer-js/providers";
 import type {Network, Transaction} from "@near-wallet-selector/core/src";
-import type {AccessKeyViewRaw} from "@near-js/types";
+import type {AccessKeyViewRaw} from "@meer-js/types";
 import {createAction} from "./create-action";
 
 export const signTransactions = async (

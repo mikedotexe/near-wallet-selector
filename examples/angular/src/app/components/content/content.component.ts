@@ -1,10 +1,10 @@
 import type { OnDestroy, OnInit } from "@angular/core";
 import { Component, Input } from "@angular/core";
-import { providers, utils } from "near-api-js";
+import { providers, utils } from "meer-api-js";
 import type {
   AccountView,
   CodeResult,
-} from "near-api-js/dist/esm/providers/provider";
+} from "@meer-js/types";
 import type {
   AccountState,
   SignMessageParams,

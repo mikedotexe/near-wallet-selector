@@ -1,4 +1,4 @@
-import type { QueryResponseKind } from "@near-js/types";
+import type { QueryResponseKind } from "@meer-js/types";
 
 export const createQueryResponseMock = (): QueryResponseKind => ({
   block_height: 0,

@@ -3,14 +3,14 @@ import type {
   BlockReference,
   QueryResponseKind,
   RpcQueryRequest,
-} from "@near-js/types";
+} from "@meer-js/types";
 import type {
   ProviderService,
   QueryParams,
   ViewAccessKeyParams,
 } from "./provider.service.types";
-import { JsonRpcProvider, FailoverRpcProvider } from "@near-js/providers";
-import type { SignedTransaction } from "@near-js/transactions";
+import { JsonRpcProvider, FailoverRpcProvider } from "@meer-js/providers";
+import type { SignedTransaction } from "@meer-js/transactions";
 
 export class Provider implements ProviderService {
   /*

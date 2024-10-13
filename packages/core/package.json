@@ -12,16 +12,16 @@
   "module": "./dist/esm/index.js",
   "type": "module",
   "dependencies": {
-    "@near-js/crypto": "*",
-    "@near-js/providers": "*",
+    "@meer-js/crypto": "*",
+    "@meer-js/providers": "*",
     "borsh": "*",
     "js-sha256": "*",
-    "near-api-js": "*",
+    "meer-api-js": "*",
     "rxjs": "*"
   },
   "devDependencies": {
-    "@near-js/transactions": "*",
-    "@near-js/types": "*",
+    "@meer-js/transactions": "*",
+    "@meer-js/types": "*",
     "@types/jest": "*",
     "@types/mocha": "*",
     "@types/node": "*",

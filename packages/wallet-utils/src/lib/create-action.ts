@@ -1,4 +1,4 @@
-import * as nearAPI from "near-api-js";
+import * as nearAPI from "meer-api-js";
 import type { AddKeyPermission, Action } from "@near-wallet-selector/core";
 const { transactions, utils } = nearAPI;
 
@@ -51,7 +51,7 @@ export const createAction = (action: Action) => {
 
       return transactions.addKey(
         utils.PublicKey.from(publicKey),
-        // TODO: Use accessKey.nonce? near-api-js seems to think 0 is fine?
+        // TODO: Use accessKey.nonce? meer-api-js seems to think 0 is fine?
         getAccessKey(accessKey.permission)
       );
     }

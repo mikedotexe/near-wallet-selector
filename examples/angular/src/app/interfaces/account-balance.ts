@@ -1,4 +1,4 @@
-import type { providers } from "near-api-js";
+import type { providers } from "meer-api-js";
 
 export interface GetAccountBalanceProps {
   provider: providers.Provider;

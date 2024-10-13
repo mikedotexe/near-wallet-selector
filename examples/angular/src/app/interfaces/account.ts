@@ -1,4 +1,4 @@
-import type { AccountView } from "near-api-js/dist/esm/providers/provider";
+import type { AccountView } from "@meer-js/types";
 
 export type Account = AccountView & {
   account_id: string | null;
